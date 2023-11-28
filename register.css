@@ -6,8 +6,8 @@
     margin-right: 135px;
     border-radius: 10px;
     border: none;
-    display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
     
 }
 .details{
@@ -15,14 +15,15 @@
     height: 100%;
     background-color:  rgb(252, 225, 203);
     
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 body{
     padding: 0%;
     margin: 0;
-    background-image: linear-gradient(rgb(255, 243, 234), rgb(255, 255, 255));
+    background-image: url('https://e0.pxfuel.com/wallpapers/486/681/desktop-wallpaper-orange-gradient-yellow-linear-light-yellow-dark-orange-ffffe0-ff8c00-315a%C2%B0.jpg');
     background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(250, 227, 210), rgb(255, 255, 255));
     background-size: cover;
      
   background-position: center;
@@ -31,8 +32,8 @@ body{
     width: 50%;
     height: 100%;
     background-image: linear-gradient(rgb(253, 115, 16), rgb(252, 212, 179)); 
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .clipart{
@@ -59,9 +60,9 @@ body{
     margin-right: 50px; 
 }
 .login{
-    margin-top: 10px;
+    margin-top: 0px;
     font-style: italic; 
-   padding: 70px;
+   padding: 60px;
 }
 .login input{
     margin: 10px;
@@ -87,7 +88,6 @@ body{
     color: black;
     font-weight: 600;
 }
-
 .login button:hover{
     opacity: 0.8;
 }

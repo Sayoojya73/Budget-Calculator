@@ -3,23 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Budget Calculator</title>
+    <title>BC Login</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<div class="register">
+    <div class="details">
+        <p class="heading">Budget <br>Calculator</p>
+        <p class="caption">Navigate the road to financial success with our budget calculator – your compass to fiscal fitness. Crunch numbers effortlessly, unlock savings, and embrace a future of financial empowerment. Budgeting made simple, dreams made possible.</p>
+        <img class="clipart" src="https://www.canarahsbclife.com/content/dam/choice/tools-calculators/saving_calculator.png">
+    </div>
+    <div class="image1">
+      <center>  <div class="login">
+            <h2>Welcome Back!!!</h2>
+            <form id="form1">
+            <input id="username" placeholder="Your Username"><br>
+            <input id="password" placeholder="Your password">
+            <br></form>
+            <button onclick="logIn()">Log In</button>
+            <hr>
+            <p>Don't have an account yet? <a href="./register.html">Sign Up</a></p>
 
-<div id="calculator">
-    <h2>Budget Calculator</h2>
-    <label for="income">Income:</label>
-    <input type="number" id="income" placeholder="Enter your income" required>
 
-    <label for="expenses">Expenses:</label>
-    <input type="number" id="expenses" placeholder="Enter your expenses" required>
+        </div></center>
 
-    <button onclick="calculateBudget()">Calculate Budget</button>
+    </div>
 
-    <div id="result"></div>
 </div>
+
 
 <script src="./script.js">
     
